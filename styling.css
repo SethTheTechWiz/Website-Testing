@@ -1,0 +1,21 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-LightItalic;
+  src: url(Fonts/OpenSans-LightItalic.ttf);
+}
+
+body {
+  text-align: center;
+}
+
+.OpenSans {
+  font-family: OpenSans;
+}
+
+.OpenSans-LightItalic {
+  font-family: OpenSans-LightItalic;
+}
