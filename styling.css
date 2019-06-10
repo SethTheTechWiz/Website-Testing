@@ -12,10 +12,34 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.Black {
+  color: black;
+}
+
+.White {
+  color: white;
+}
+
 .OpenSans {
   font-family: OpenSans;
 }
 
 .OpenSans-LightItalic {
   font-family: OpenSans-LightItalic;
+}
+
+.rainbow {
+  background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+  border-radius: 25px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
