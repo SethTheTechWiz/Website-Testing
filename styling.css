@@ -1,3 +1,23 @@
+@keyframes transition1-move-up {
+  from {
+    padding-top: 50vw;
+  }
+
+  to {
+    padding-top: auto;
+  }
+}
+
+@keyframes transition2-move-up {
+  from {
+    padding-top: 50vw;
+  }
+
+  to {
+    padding-top: auto;
+  }
+}
+
 @font-face {
   font-family: OpenSans;
   src: url(Fonts/Open-Sans/OpenSans-Regular.ttf);
@@ -10,6 +30,8 @@
 
 body {
   text-align: center;
+  background-image: linear-gradient(to top left, darkblue, lightblue);
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -28,6 +50,10 @@ h2 {
   color: white;
 }
 
+.Title {
+  padding-bottom: 1000px;
+}
+
 .OpenSans {
   font-family: OpenSans;
 }
@@ -36,10 +62,18 @@ h2 {
   font-family: OpenSans-LightItalic;
 }
 
-.rainbow {
-  background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
-  border-radius: 25px;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+#transition1 {
+  opacity: 0;
+  transition: 2s;
+  animation-name: transition1-move-up;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+}
+
+#transition2 {
+  opacity: 0;
+  transition: 2s;
+  animation-name: transition2-move-up;
+  animation-timing-function: ease;
+  animation-duration: 2s;
 }
