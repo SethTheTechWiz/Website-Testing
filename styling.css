@@ -30,7 +30,7 @@
 
 body {
   text-align: center;
-  background-image: linear-gradient(to top left, darkblue, lightblue);
+  background: linear-gradient(to top left, darkblue, lightblue);
   background-repeat: no-repeat;
 }
 
